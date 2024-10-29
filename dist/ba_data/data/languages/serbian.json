@@ -501,6 +501,7 @@
     "yourPowerRankingText": "Твој ранк:"
   },
   "copyOfText": "Копирај \"${NAME}\"",
+  "copyText": "Копирај",
   "createEditPlayerText": "<Направи/измени играча>",
   "createText": "Направи",
   "creditsWindow": {

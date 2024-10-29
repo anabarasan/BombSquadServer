@@ -3,7 +3,7 @@
     "accountNameRules": "Marapat na ang pangalan ng account na iyon ay walang mga special characters o mga emoji",
     "accountsText": "Mga account",
     "achievementProgressText": "Mga Nakamtan: ${COUNT} sa ${TOTAL}",
-    "campaignProgressText": "Pag-usad sa Laro [Mahirap]: ${PROGRESS}",
+    "campaignProgressText": "Ang Progreso sa Laro [Mahirap]: ${PROGRESS}",
     "changeOncePerSeason": "Mapapalit mo lang ito isa-isa kada season",
     "changeOncePerSeasonError": "Kailangan mo muna maghintay ng susunod na season para mapalitan ito. (${NUM} araw)",
     "customName": "Custom na Pangalan",
@@ -17,8 +17,8 @@
     "nameChangeConfirm": "Baguhin ang pangalan ng iyong account sa ${NAME}?",
     "resetProgressConfirmNoAchievementsText": "Ibabalik nito sa dati ang iyong pag-usad,\nat lokal na mga high-score (pwera sa ticket).\nHindi na ito maibabalik pa. Ipagpatuloy pa rin?",
     "resetProgressConfirmText": "Ibabalik nito sa dati ang iyong pag-usad,\nmga nakamtan, at lokal na mga high-score\n(pwera sa ticket). Hindi na ito maibabalik\npa. Ipagpatuloy pa rin?",
-    "resetProgressText": "Ibalik ang Pag-usad",
-    "setAccountName": "Iset ang Account name",
+    "resetProgressText": "I-reset ang Progreso",
+    "setAccountName": "I-set ang Account name",
     "setAccountNameDesc": "Piliin ang pangalan na ipapakita para sa iyong account.\nMaaari mong gamitin ang pangalan mula sa isa sa iyong mga naka-link \nna account o lumikha ng isang natatanging pasadyang pangalan.",
     "signInInfoText": "Magsign-in para kumolekta ng mga ticket, makipagkompetensya online,\nat makabahagi ng pag-usad sa iba't ibang mga device.",
     "signInText": "Mag-sign in",
@@ -42,7 +42,7 @@
     "youAreSignedInAsText": "Nakasign-in ka bilang:"
   },
   "achievementChallengesText": "Mga nakamit",
-  "achievementText": "Achievement",
+  "achievementText": "Mga Nakamtan",
   "achievements": {
     "Boom Goes the Dynamite": {
       "description": "Mapasabog ang 3 kalaban gamit ang TNT",
@@ -80,7 +80,7 @@
       "descriptionComplete": "Pumatay ng 6 na kalaban gamit ang mga land-mine",
       "descriptionFull": "Pumatay ng 6 na kalaban gamit ang mga land -mine sa ${LEVEL}",
       "descriptionFullComplete": "Nakapatay ng 6 na kalaban gamit ang mga land-mine sa ${LEVEL}",
-      "name": "Minero"
+      "name": "Minahang Lagayan"
     },
     "Got the Moves": {
       "description": "Manalo ng ‘di sumusuntok o gumagamit ng mga bomba",
@@ -268,11 +268,11 @@
       "name": "Sobrang Suntok"
     },
     "TNT Terror": {
-      "description": "Pumatay ng 6 na masasamang tao gamit ang TNT",
-      "descriptionComplete": "Pinatay ng 6 na masasamang tao gamit ang TNT",
-      "descriptionFull": "Pumatay ng 6 na masasamang tao gamit ang TNT sa ${LEVEL}",
-      "descriptionFullComplete": "Pinatay ng 6 na masasamang tao gamit ang TNT sa ${LEVEL}",
-      "name": "TNT Kilabutan"
+      "description": "Pumatay ng 6 na kalaban gamit ang TNT",
+      "descriptionComplete": "Pinatay ng 6 na kalaban gamit ang TNT",
+      "descriptionFull": "Pumatay ng 6 na kalaban gamit ang TNT sa ${LEVEL}",
+      "descriptionFullComplete": "Pinatay ng 6 na kalaban gamit ang TNT sa ${LEVEL}",
+      "name": "Takutan ng TNT"
     },
     "Team Player": {
       "descriptionFull": "Magsimula ng laro na mayroong 4+ na manlalaro",
@@ -280,31 +280,31 @@
       "name": "Manlalaro Ng Koponan"
     },
     "The Great Wall": {
-      "description": "Itigil ang bawat masamang tao",
-      "descriptionComplete": "Pinigilan ang bawat masamang tao",
-      "descriptionFull": "Itigil ang bawat masamang tao sa ${LEVEL}",
-      "descriptionFullComplete": "Pinigilan ang bawat masamang tao sa ${LEVEL}",
+      "description": "Itigil ang bawat kalaban",
+      "descriptionComplete": "Pinigilan ang bawat kalaban",
+      "descriptionFull": "Itigil ang bawat kalaban sa ${LEVEL}",
+      "descriptionFullComplete": "Pinigilan ang bawat kalaban sa ${LEVEL}",
       "name": "Ang Malaking Pader"
     },
     "The Wall": {
-      "description": "Itigil ang bawat masamang tao",
-      "descriptionComplete": "Pinigilan ang bawat masamang tao",
-      "descriptionFull": "Itigil ang bawat masamang tao sa ${LEVEL}",
-      "descriptionFullComplete": "Pinigilan ang bawat masamang tao sa ${LEVEL}",
+      "description": "Itigil ang bawat kalaban",
+      "descriptionComplete": "Pinigilan ang bawat kalaban",
+      "descriptionFull": "Itigil ang bawat kalaban sa ${LEVEL}",
+      "descriptionFullComplete": "Pinigilan ang bawat kalaban sa ${LEVEL}",
       "name": "Ang Pader"
     },
     "Uber Football Shutout": {
-      "description": "Manalo nang hindi maka puntos ang mga masasamang tao",
-      "descriptionComplete": "Manalo nang hindi maka puntos ang mga masasamang tao",
-      "descriptionFull": "Manalo sa ${LEVEL} na hindi maka puntos ang mga masasamang tao",
-      "descriptionFullComplete": "Manalo sa ${LEVEL} na hindi maka puntos ang mga masasamang tao",
+      "description": "Manalo nang hindi maka puntos ang mga kalaban",
+      "descriptionComplete": "Manalo nang hindi maka puntos ang mga kalaban",
+      "descriptionFull": "Manalo sa ${LEVEL} na hindi maka puntos ang mga kalaban",
+      "descriptionFullComplete": "Manalo sa ${LEVEL} na hindi maka puntos ang mga kalaban",
       "name": "${LEVEL} Pagsarhan"
     },
     "Uber Football Victory": {
       "description": "Ipanalo ang laro",
-      "descriptionComplete": "Ipanalo ang laro",
-      "descriptionFull": "Manalo sa laro sa ${LEVEL}",
-      "descriptionFullComplete": "Manalo sa laro sa ${LEVEL}",
+      "descriptionComplete": "Nanalo ang laro",
+      "descriptionFull": "I-panalo ang laro sa ${LEVEL}",
+      "descriptionFullComplete": "Manalo ang laro sa ${LEVEL}",
       "name": "${LEVEL} Natagumpay"
     },
     "Uber Onslaught Victory": {
@@ -322,7 +322,7 @@
       "name": "${LEVEL} Natagumpay"
     }
   },
-  "achievementsRemainingText": "Ang Mga Natitirang Achievements:",
+  "achievementsRemainingText": "Ang Mga Natitirang Nakamtan:",
   "achievementsText": "Achievements",
   "achievementsUnavailableForOldSeasonsText": "Pasensya na, hindi available ang mga detalye ng achievements para sa mga lumang seasons.",
   "addGameWindow": {
@@ -333,7 +333,7 @@
   "alreadySignedInText": "Ang iyong account ay naka-sign in mula sa isa pang device;\nMangyaring lumipat ng mga accounts o isara ang laro sa iyong\niba pang mga device at subukan muli.",
   "apiVersionErrorText": "Hindi ma-load ang module ${NAME}; naka-target ang api-version ${VERSION_USED}; kailangan namin ${VERSION_REQUIRED}",
   "audioSettingsWindow": {
-    "headRelativeVRAudioInfoText": "(Lalabas ang “Auto” kapag nakasaksak ang headphones)",
+    "headRelativeVRAudioInfoText": "(Lalabas ang “Auto” ng ito kapag nakasaksak ang headphones)",
     "headRelativeVRAudioText": "Head-Relative VR Audio",
     "musicVolumeText": "Volume ng Musika",
     "soundVolumeText": "Lakas ng Tunog",
@@ -353,7 +353,7 @@
   "bombText": "Bomba",
   "boostText": "Palakasin",
   "bsRemoteConfigureInAppText": "${REMOTE_APP_NAME} naka-configure ito sa mismong app.",
-  "buttonText": "Pindutan",
+  "buttonText": "pindutan",
   "canWeDebugText": "Gusto mo ba na ang BombSquad ay automatic na mag report ng\nbugs, crashes, at mga basic usage na info na i-sent sa developer?\n\nHindi ito naglalaman ng mga personal information at makatulong ito\npara ang laro ay gumagana at bug-free.",
   "cancelText": "Kanselahin",
   "cantConfigureDeviceText": "Pasensya na, ang ${DEVICE} ay hindi ma-configure.",
@@ -363,7 +363,7 @@
   "chatUnMuteText": "I-unmute ang Chat",
   "choosingPlayerText": "<pumipili ng manlalaro>",
   "completeThisLevelToProceedText": "I complete mo muna\nang level na ito bago ka mag-proceed!",
-  "completionBonusText": "Completion Bonus",
+  "completionBonusText": "Bonus sa Pagkumpleto nito:",
   "configControllersWindow": {
     "configureControllersText": "I-configure ang mga Controller",
     "configureKeyboard2Text": "I-configure ang Keyboard sa P2",
@@ -1742,7 +1742,7 @@
     "phrase03Text": "Narito ang ilang mga tip para sa pagkontrol ng iyong karakter:",
     "phrase04Text": "Maraming bagay sa ${APP_NAME} ang nakabatay sa PISIKA",
     "phrase05Text": "Halimbawa, kapag sumuntok ka,..",
-    "phrase06Text": "..binase ang damage sa bilis ng mga kamao mo.",
+    "phrase06Text": "..binase ang damage sa bilis ng mga kamay mo.",
     "phrase07Text": "Kita mo? Hindi kami gumagalaw, kaya halos hindi nasaktan si ${NAME}",
     "phrase08Text": "Ngayon, tumalon at umikot tayo upang makakuha ng higit na bilis.",
     "phrase09Text": "Ayan, mas maganda",
@@ -1771,7 +1771,7 @@
     "randomName3Text": "Stephen",
     "randomName4Text": "Joshua",
     "randomName5Text": "Villar",
-    "skipConfirmText": "Sure ka Na iskip ang tutorial? Tap o pindutin para maiconfirm",
+    "skipConfirmText": "Sure ka na i-skip ang tutorial? Tap o pindutin para ma i-confirm.",
     "skipVoteCountText": "${COUNT}/${TOTAL} boto na gustong laktawan",
     "skippingText": "Nilalaktawan ang tutorial",
     "toSkipPressAnythingText": "(i-tap o pindutin ang anuman para laktawan ang tutorial)"

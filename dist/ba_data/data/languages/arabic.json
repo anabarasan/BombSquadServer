@@ -499,6 +499,7 @@
     "yourPowerRankingText": "تصنيف الطاقة:"
   },
   "copyOfText": "${NAME} نسخ",
+  "copyText": "ينسخ",
   "createEditPlayerText": "<اصنع او عدل حساب>",
   "createText": "اصنع",
   "creditsWindow": {
@@ -1499,6 +1500,7 @@
       "Dutch": "هولندي",
       "English": "الإنجليزية",
       "Esperanto": "الاسبرانتو",
+      "Filipino": "الفلبينية",
       "Finnish": "اللغة الفنلندية",
       "French": "الفرنسية",
       "German": "الألمانية",
