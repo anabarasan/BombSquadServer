@@ -4,7 +4,6 @@
 
 from __future__ import annotations
 
-import ssl
 import time
 import asyncio
 import logging
@@ -14,7 +13,7 @@ from dataclasses import dataclass
 from threading import current_thread
 from typing import TYPE_CHECKING, Annotated
 
-from efro.error import CommunicationError
+from efro.error import CommunicationError, is_asyncio_streams_network_error
 from efro.util import assert_never
 from efro.dataclassio import (dataclass_to_json, dataclass_from_json,
                               ioprepped, IOAttrs)
@@ -510,25 +509,12 @@ class RPCEndpoint:
 
     @classmethod
     def _is_expected_connection_error(cls, exc: Exception) -> bool:
+        """Stuff we expect to end our connection in normal circumstances."""
 
-        # We expect this stuff to be what ends us.
-        if isinstance(exc, (
-                ConnectionError,
-                EOFError,
-                _KeepaliveTimeoutError,
-        )):
+        if isinstance(exc, _KeepaliveTimeoutError):
             return True
 
-        # Am occasionally getting a specific SSL error on shutdown which I
-        # believe is harmless (APPLICATION_DATA_AFTER_CLOSE_NOTIFY).
-        # It sounds like it may soon be ignored by Python (as of March 2022).
-        # Let's still complain, however, if we get any SSL errors besides
-        # this one. https://bugs.python.org/issue39951
-        if isinstance(exc, ssl.SSLError):
-            if 'APPLICATION_DATA_AFTER_CLOSE_NOTIFY' in str(exc):
-                return True
-
-        return False
+        return is_asyncio_streams_network_error(exc)
 
     def _check_env(self) -> None:
         # I was seeing that asyncio stuff wasn't working as expected if
