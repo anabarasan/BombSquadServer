@@ -501,6 +501,7 @@
     "yourPowerRankingText": "你的能力排位："
   },
   "copyOfText": "${NAME} 复制",
+  "copyText": "copy",
   "createEditPlayerText": "<创建/编辑玩家>",
   "createText": "创建",
   "creditsWindow": {

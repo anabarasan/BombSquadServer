@@ -496,7 +496,8 @@
     "welcome2Text": "Maaari ka ring makakuha ng mga tiket mula sa marami sa parehong mga aktibidad.\nMaaaring gamitin ang mga tiket para i-unlock ang mga bagong character, mapa, at\nmini-games, para makapasok sa mga tournament, at higit pa.",
     "yourPowerRankingText": "Iyong Power Ranking:"
   },
-  "copyOfText": "${NAME} Kopya",
+  "copyOfText": "Kopya ng ${NAME}",
+  "copyText": "I-kopya",
   "createEditPlayerText": "<Gumawa/I-Edit Ng Manlalaro>",
   "createText": "Gumawa",
   "creditsWindow": {
@@ -547,11 +548,11 @@
   "difficultyHardText": "Mahirap",
   "difficultyHardUnlockOnlyText": "Itong level na ito ay naka-unlock sa Mahirap na mode lang.\nSa tingin mo ba mayroong ano ang kinakailangan!?!?!",
   "directBrowserToURLText": "Mangyaring idirekta Ang isang web-browser sa sumusunod na URL:",
-  "disableRemoteAppConnectionsText": "I-disable Ang Remote-App Connection",
+  "disableRemoteAppConnectionsText": "I-disable Ang Mga Remote-App Na Konekyson",
   "disableXInputDescriptionText": "Pumayag ng higit sa 4 na controllers ngunit maaaring hindi mabuti ang kalagay",
   "disableXInputText": "Disable XInput",
   "doneText": "Tapos",
-  "drawText": "I-draw",
+  "drawText": "Patas",
   "duplicateText": "I-duplicate",
   "editGameListWindow": {
     "addGameText": "Idagdag na\nLaro",
@@ -568,7 +569,7 @@
   "editProfileWindow": {
     "accountProfileInfoText": "Itong espesyal na profile ay may\npangalan at icon batay sa iyong account.\n\n${ICONS}\n\nGumawa ng custom na profile para gamitin ng \nmagkaibang pangalan o custom icons.",
     "accountProfileText": "(account profile)",
-    "availableText": "Ang pangalang \"${NAME} ay maari mong gamitin",
+    "availableText": "Ang pangalang \"${NAME}” na ito ay maari mong gamitin pang-icon",
     "characterText": "karakter",
     "checkingAvailabilityText": "Titignan ko kung maaari mo gamitin ang \"${NAME}\"...",
     "colorText": "kulay",

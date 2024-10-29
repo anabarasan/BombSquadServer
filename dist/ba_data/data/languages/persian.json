@@ -499,6 +499,7 @@
     "yourPowerRankingText": "رتبه‌بندی قدرت شما:"
   },
   "copyOfText": "${NAME} کپی",
+  "copyText": "کپی کردن",
   "createEditPlayerText": "<ایجاد/ویرایش بازیکن>",
   "createText": "ساختن",
   "creditsWindow": {
@@ -553,7 +554,7 @@
   "disableXInputDescriptionText": "اجازه می‌دهد به بیش از 4 کنترل کننده اما ممکن است کار نکند.",
   "disableXInputText": "غیرفعال کردن ورودی ایکس",
   "doneText": "انجام شد",
-  "drawText": "مساوی",
+  "drawText": "برابر",
   "duplicateText": "تکراری",
   "editGameListWindow": {
     "addGameText": "افزودن\nبازی",

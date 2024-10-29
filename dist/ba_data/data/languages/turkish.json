@@ -498,6 +498,7 @@
     "yourPowerRankingText": "Oyuncu Sıralaman:"
   },
   "copyOfText": "Kopya ${NAME}",
+  "copyText": "Kopyala",
   "createEditPlayerText": "<Oyuncu Oluştur/Düzenle>",
   "createText": "Oluştur",
   "creditsWindow": {
@@ -1499,6 +1500,7 @@
       "Dutch": "Flemenkçe",
       "English": "İngilizce",
       "Esperanto": "Esperanto",
+      "Filipino": "Filipince",
       "Finnish": "Fince",
       "French": "Fransızca",
       "German": "Almanca",

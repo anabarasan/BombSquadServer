@@ -497,6 +497,7 @@
     "yourPowerRankingText": "Your Power Ranking:"
   },
   "copyOfText": "${NAME} Copy",
+  "copyText": "Copy",
   "createEditPlayerText": "<Create/Edit Player>",
   "createText": "Create",
   "creditsWindow": {
