@@ -43,6 +43,7 @@
     "titleText": "Account",
     "unlinkAccountsInstructionsText": "Seleziona un account da scollegare",
     "unlinkAccountsText": "Scollega Account",
+    "v2LinkInstructionsText": "Usa questo link per creare un account o accedere.",
     "viaAccount": "(tramite ${NAME})",
     "youAreLoggedInAsText": "Accesso effettuato come:",
     "youAreSignedInAsText": "Hai effettuato l'accesso con:"

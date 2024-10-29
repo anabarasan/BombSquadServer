@@ -29,6 +29,8 @@
     "signInWithGooglePlayText": "Google Play سجل دخولك عبر",
     "signInWithTestAccountInfoText": "(حساب موجود على هاتفك; استخدم حساب الهاتف للمتابعة)",
     "signInWithTestAccountText": "تسجيل الدخول بحساب تجريبي",
+    "signInWithV2InfoText": "حساب يعمل على جميع المنصات",
+    "signInWithV2Text": "قم بتسجيل الدخول باستخدام حساب BombSquad",
     "signOutText": "تسجيل الخروج",
     "signingInText": "...جارٍ تسجيل دخولك",
     "signingOutText": "...جارٍ تسجيل خروجك",
@@ -37,6 +39,7 @@
     "titleText": "الحساب",
     "unlinkAccountsInstructionsText": "حدد حسابا لإلغاء ربطه",
     "unlinkAccountsText": "إلغاء ربط الحسابات",
+    "v2LinkInstructionsText": "استخدم هذا الارتباط لإنشاء حساب أو تسجيل الدخول.",
     "viaAccount": "(${NAME} عبر الحساب)",
     "youAreSignedInAsText": ": قمت بتسجيل الدخول كـ"
   },

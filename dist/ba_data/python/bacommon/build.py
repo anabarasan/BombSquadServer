@@ -16,19 +16,18 @@ if TYPE_CHECKING:
 
 @ioprepped
 @dataclass
-class BuildInfo:
-    """Info about a particular build."""
-    filename: Annotated[str, IOAttrs('fname')]
-    size: Annotated[int, IOAttrs('size')]
-    version: Annotated[str, IOAttrs('version')]
-    build_number: Annotated[int, IOAttrs('build')]
-    checksum: Annotated[str, IOAttrs('checksum')]
-    createtime: Annotated[datetime.datetime, IOAttrs('createtime')]
-
-
-@ioprepped
-@dataclass
 class BuildInfoSet:
     """Set of build infos."""
-    builds: Annotated[list[BuildInfo],
+
+    @dataclass
+    class Entry:
+        """Info about a particular build."""
+        filename: Annotated[str, IOAttrs('fname')]
+        size: Annotated[int, IOAttrs('size')]
+        version: Annotated[str, IOAttrs('version')]
+        build_number: Annotated[int, IOAttrs('build')]
+        checksum: Annotated[str, IOAttrs('checksum')]
+        createtime: Annotated[datetime.datetime, IOAttrs('createtime')]
+
+    builds: Annotated[list[Entry],
                       IOAttrs('builds')] = field(default_factory=list)

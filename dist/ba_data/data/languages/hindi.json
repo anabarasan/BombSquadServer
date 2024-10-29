@@ -29,6 +29,8 @@
     "signInWithGooglePlayText": "गूगल प्ले से साईन ईन करे",
     "signInWithTestAccountInfoText": "(पुराना खाते का प्ररूप; आगे के लिए यंत्र खाते का प्रयोग करें)",
     "signInWithTestAccountText": "परीक्षण के खाते से साइन इन करें",
+    "signInWithV2InfoText": "(एक खाता जो सभी प्लेटफार्मों पर काम करता है)",
+    "signInWithV2Text": "BombSquad खाते से साइन इन करें",
     "signOutText": "साइन आउट",
     "signingInText": "साइन इन हो रहा है...",
     "signingOutText": "साइन आउट हो रहा है...",
@@ -39,6 +41,7 @@
     "titleText": "खाता",
     "unlinkAccountsInstructionsText": "अनलिंक करने के लिए एक खाता चुनें",
     "unlinkAccountsText": "खाते अनलिंक करें",
+    "v2LinkInstructionsText": "खाता बनाने या साइन इन करने के लिए इस लिंक का उपयोग करें।",
     "viaAccount": "(खाता ${NAME} के माध्यम से)",
     "youAreSignedInAsText": "आप इस खाते से साइनड इन हो: "
   },
