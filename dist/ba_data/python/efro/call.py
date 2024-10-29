@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 from typing import TYPE_CHECKING, TypeVar, Generic, Callable, cast
+import functools
 
 if TYPE_CHECKING:
     from typing import Any, overload
@@ -265,4 +266,9 @@ if TYPE_CHECKING:
     def Call(*_args: Any, **_keywds: Any) -> Any:
         ...
 
-    Call = Call
+    # (Type-safe Partial)
+    # A convenient wrapper around functools.partial which adds type-safety
+    # (though it does not support keyword arguments).
+    tpartial = Call
+else:
+    tpartial = functools.partial
