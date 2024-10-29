@@ -498,6 +498,7 @@
     "yourPowerRankingText": "내 파워 랭킹:"
   },
   "copyOfText": "${NAME} 사본",
+  "copyText": "복사",
   "createEditPlayerText": "<플레이어 생성/편집>",
   "createText": "생성",
   "creditsWindow": {
@@ -1499,6 +1500,7 @@
       "Dutch": "네덜란드어",
       "English": "영어",
       "Esperanto": "에스페란토",
+      "Filipino": "필리핀어",
       "Finnish": "핀란드어",
       "French": "프랑스어",
       "German": "독일어",

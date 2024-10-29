@@ -500,6 +500,7 @@
     "yourPowerRankingText": "आपका सत्ता पद :"
   },
   "copyOfText": "${NAME} दूसरा",
+  "copyText": "नकल किजिए",
   "createEditPlayerText": "<प्लेयर बनाएँ / संपादित करें>",
   "createText": "बनायें",
   "creditsWindow": {
@@ -1507,6 +1508,7 @@
       "Dutch": "डच",
       "English": "अंग्रेजी",
       "Esperanto": "एस्पेरांतो",
+      "Filipino": "फिलिनो",
       "Finnish": "फिनिश",
       "French": "फ्रेंच",
       "German": "जर्मन",
