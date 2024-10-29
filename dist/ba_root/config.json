@@ -1,0 +1,173 @@
+{
+  "Achievements": {
+    "Boom Goes the Dynamite": {
+      "Complete": false
+    },
+    "Boxer": {
+      "Complete": false
+    },
+    "Dual Wielding": {
+      "Complete": false
+    },
+    "Flawless Victory": {
+      "Complete": false
+    },
+    "Free Loader": {
+      "Complete": false
+    },
+    "Gold Miner": {
+      "Complete": false
+    },
+    "Got the Moves": {
+      "Complete": false
+    },
+    "In Control": {
+      "Complete": false
+    },
+    "Last Stand God": {
+      "Complete": false
+    },
+    "Last Stand Master": {
+      "Complete": false
+    },
+    "Last Stand Wizard": {
+      "Complete": false
+    },
+    "Mine Games": {
+      "Complete": false
+    },
+    "Off You Go Then": {
+      "Complete": false
+    },
+    "Onslaught God": {
+      "Complete": false
+    },
+    "Onslaught Master": {
+      "Complete": false
+    },
+    "Onslaught Training Victory": {
+      "Complete": false
+    },
+    "Onslaught Wizard": {
+      "Complete": false
+    },
+    "Precision Bombing": {
+      "Complete": false
+    },
+    "Pro Boxer": {
+      "Complete": false
+    },
+    "Pro Football Shutout": {
+      "Complete": false
+    },
+    "Pro Football Victory": {
+      "Complete": false
+    },
+    "Pro Onslaught Victory": {
+      "Complete": false
+    },
+    "Pro Runaround Victory": {
+      "Complete": false
+    },
+    "Rookie Football Shutout": {
+      "Complete": false
+    },
+    "Rookie Football Victory": {
+      "Complete": false
+    },
+    "Rookie Onslaught Victory": {
+      "Complete": false
+    },
+    "Runaround God": {
+      "Complete": false
+    },
+    "Runaround Master": {
+      "Complete": false
+    },
+    "Runaround Wizard": {
+      "Complete": false
+    },
+    "Sharing is Caring": {
+      "Complete": false
+    },
+    "Stayin' Alive": {
+      "Complete": false
+    },
+    "Super Mega Punch": {
+      "Complete": false
+    },
+    "Super Punch": {
+      "Complete": false
+    },
+    "TNT Terror": {
+      "Complete": false
+    },
+    "Team Player": {
+      "Complete": false
+    },
+    "The Great Wall": {
+      "Complete": false
+    },
+    "The Wall": {
+      "Complete": false
+    },
+    "Uber Football Shutout": {
+      "Complete": false
+    },
+    "Uber Football Victory": {
+      "Complete": false
+    },
+    "Uber Onslaught Victory": {
+      "Complete": false
+    },
+    "Uber Runaround Victory": {
+      "Complete": false
+    }
+  },
+  "Auto Account State": "Server",
+  "Auto Balance Teams": true,
+  "Campaigns": {},
+  "Free-for-All Max Players": 8,
+  "Free-for-All Playlists": {},
+  "Idle Exit Minutes": null,
+  "Local Account Name": "Server3589666",
+  "Player Profiles": {
+    "__account__": {
+      "character": "Spaz",
+      "color": [0.5, 0.25, 1.0],
+      "highlight": [0.5, 0.25, 1.0]
+    }
+  },
+  "Plugins": {},
+  "Port": 43210,
+  "Region Pings": {
+    "af-south-1": 301.90348500036635,
+    "ap-northeast-1": 109.83166299956792,
+    "ap-northeast-2": 127.81519499912974,
+    "ap-south-1": 19.967679263241735,
+    "ap-southeast-1": 36.28334741842991,
+    "ap-southeast-2": 312.06010726590466,
+    "ca-central-1": 213.85844799988263,
+    "eu-central-1": 145.246338999641,
+    "eu-north-1": 164.27301399926364,
+    "eu-south-1": 141.30055799978436,
+    "eu-west-1": 153.24421100012842,
+    "eu-west-2": 186.07621199953428,
+    "eu-west-3": 154.00928600138286,
+    "me-south-1": 51.691397470989614,
+    "sa-east-1": 338.16046999891114,
+    "us-east-1": 209.78687100068782,
+    "us-east-2": 270.20552400063025,
+    "us-west-1": 267.9543410013139,
+    "us-west-2": 283.4275599998364
+  },
+  "Show Tutorial": false,
+  "Signed In Last Session": false,
+  "Team Game Max Players": 8,
+  "Team Tournament Playlist Randomize": true,
+  "Team Tournament Playlist Selection": "__default__",
+  "Team Tournament Playlists": {},
+  "launchCount": 1,
+  "lc14173": 1,
+  "lc14292": 1
+}

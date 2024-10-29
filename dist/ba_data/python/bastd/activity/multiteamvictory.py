@@ -149,6 +149,10 @@ class TeamSeriesVictoryScoreScreenActivity(MultiTeamScoreScreenActivity):
         mvp: Optional[ba.PlayerRecord] = None
         mvp_name: Optional[str] = None
 
+        most_valuable_player = (None, None, None)
+        most_violent_player = (None, None, None)
+        most_violated_player = (None, None, None)
+
         # Show game MVP.
         if not self._is_ffa:
             mvp, mvp_name = None, None
@@ -184,6 +188,7 @@ class TeamSeriesVictoryScoreScreenActivity(MultiTeamScoreScreenActivity):
                      transition=Text.Transition.IN_LEFT,
                      transition_delay=tval).autoretain()
                 tval += 4 * t_incr
+                most_valuable_player = (mvp, mvp_name, None)
 
         # Most violent.
         most_kills = 0
@@ -229,6 +234,7 @@ class TeamSeriesVictoryScoreScreenActivity(MultiTeamScoreScreenActivity):
                  transition=Text.Transition.IN_LEFT,
                  transition_delay=tval).autoretain()
             tval += 4 * t_incr
+            most_violent_player = (mvp, mvp_name, most_kills)
 
         # Most killed.
         most_killed = 0
@@ -274,6 +280,7 @@ class TeamSeriesVictoryScoreScreenActivity(MultiTeamScoreScreenActivity):
                  transition=Text.Transition.IN_LEFT,
                  transition_delay=tval).autoretain()
             tval += 4 * t_incr
+            most_violated_player = (mkp, mkp_name, most_killed)
 
         # Now show individual scores.
         tdelay = tval
@@ -313,6 +320,13 @@ class TeamSeriesVictoryScoreScreenActivity(MultiTeamScoreScreenActivity):
                  transition_delay=tdelay).autoretain()
 
         ba.timer(15.0, ba.WeakCall(self._show_tips))
+        from series_summary import SeriesSummary
+        SeriesSummary.winning_sessionteam = winning_sessionteam
+        SeriesSummary.most_valuable_player = most_valuable_player
+        SeriesSummary.most_violent_player = most_violent_player
+        SeriesSummary.most_violated_player = most_violated_player
+        print("Series Done!")
+        SeriesSummary.save_summary()
 
     def _show_tips(self) -> None:
         from bastd.actor.tipstext import TipsText

@@ -142,6 +142,8 @@ class TeamGameActivity(GameActivity[PlayerType, TeamType]):
                     results,
                     delay=announce_delay,
                     announce_winning_team=announce_winning_team)
+                from series_summary import SeriesSummary
+                SeriesSummary.append(results, session.stats)
 
         # For co-op we just pass this up the chain with a delay added
         # (in most cases). Team games expect a delay for the announce
